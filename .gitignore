@@ -1,4 +1,7 @@
+@@ -1,4 +1,5 @@
 *.exe
 *.out
 *.app
+.git
+#Makefile#
 .git

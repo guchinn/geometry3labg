@@ -15,4 +15,4 @@ $(OD)perimetr.o: $(SD)perimetr.cpp
 $(OD)square.o: $(SD)square.cpp
 	$(CC) $(CFLAGS) -c -o $(OD)square.o $(SD)square.cpp -lm
 clean:
-    rm -rf $(EXECUTABLE) $(OD)*.o
+	rm -rf $(EXECUTABLE) $(OD)*.o
